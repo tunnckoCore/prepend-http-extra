@@ -1,0 +1,24 @@
+{
+  "name": "prepend-http-extra",
+  "version": "0.0.0",
+  "description": "Same as `prepend-http` but handles the case when starts with `//`, like CDNs.",
+  "repository": "tunnckoCore/prepend-http-extra",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "prepend-http": "^1.0.3"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "prepend-http-extra"
+  ]
+}
