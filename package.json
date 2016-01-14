@@ -19,6 +19,15 @@
     "index.js"
   ],
   "keywords": [
-    "prepend-http-extra"
+    "cdn",
+    "extra",
+    "http",
+    "https",
+    "prepend",
+    "prepend-http-extra",
+    "protocol",
+    "scheme",
+    "uri",
+    "url"
   ]
 }
