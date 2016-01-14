@@ -1,6 +1,6 @@
 {
   "name": "prepend-http-extra",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Same as `prepend-http` but handles the case when starts with `//`, like CDNs.",
   "repository": "tunnckoCore/prepend-http-extra",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
