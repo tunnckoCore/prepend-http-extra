@@ -15,7 +15,15 @@ npm i prepend-http-extra --save
 > For more use-cases see the [tests](./test.js)
 
 ```js
-const prependHttpExtra = require('prepend-http-extra')
+const prepend = require('prepend-http-extra')
+
+prepend('https://foo.com')  // => 'https://foo.com'
+prepend('http://bar.com')   // => 'http://bar.com'
+prepend('baz.com')          // => 'http://baz.com'
+prepend('//qux.com')        // => 'http://qux.com'
+prepend('/abs.com')         // => '/abs.com'
+prepend('./rel.com')        // => './rel.com'
+prepend('../par.com')       // => '../par.com'
 ```
 
 
